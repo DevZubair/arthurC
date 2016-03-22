@@ -1,0 +1,53 @@
+<ion-view view-title="Preferences">
+  <ion-content>
+    <div class="row">
+      <div class="col col-20">Looking for</div>
+
+      <div class="button-bar button-font-13">
+        <a class="button">Women</a>
+        <a class="button">Men</a>
+        <a class="button">Both</a>
+      </div>
+
+
+    </div>
+
+    <!-- <ul>-->
+
+
+    <!-- <p>Name: </p>
+     <p id="minAgeP">Minimum Age: {{positions.minAge}}</p>
+     <p>Maximum Age: {{positions.maxAge}}</p>!-->
+    <div class="row">
+      <p class="col-20">Age</p>
+      <div class="col"> <slider floor="10" ceiling="100" ng-model-low="positions.minAge" ng-model-high="positions.maxAge"></slider> </div>
+    </div>
+
+    <div class="row">
+      <p class="col-20 font-adjustment">Height</p>
+      <div class="col"> <slider floor="10" ceiling="100" ng-model-low="positions.minAge" ng-model-high="positions.maxAge"></slider> </div>
+    </div>
+
+    <div class="row">
+      <p class="col-20">Distance</p>
+      <div class="col"> <slider floor="10" ceiling="100" ng-model-low="positions.minAge" ng-model-high="positions.maxAge"></slider> </div>
+    </div>
+
+    <div class="row">
+      <div class="col-20">Ethnicity</div>
+      <div class="col list list-inset">
+        <label class="item item-input">
+          <input type="text" placeholder="7 ethnicities Selected">
+        </label>
+      </div></div>
+
+      <div class="row">
+        <div class="col-20">Education</div>
+        <div class="col list list-inset">
+          <label class="item item-input">
+            <input type="text" placeholder="Selective">
+          </label>
+        </div>
+      </div>
+  </ion-content>
+</ion-view>
