@@ -9,4 +9,40 @@
   font-family: sans-serif;
   font-style: italic;
   color: #B1B0B0;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.font-adjustment1{
+  font-family: sans-serif;
+  font-style: italic;
+  color: #B1B0B0;
+    margin-top: 13%;
+    margin-left: 5%;
+}
+.font-adjustment2{
+    font-family: sans-serif;
+    font-style: italic;
+    color: #B1B0B0;
+    margin-top: 12%;
+    margin-left: 2%;
+}
+.font-looking{
+    font-family: sans-serif;
+    font-style: italic;
+    color: #B1B0B0;
+    margin-top: 5%;
+
+}
+.placeholder-bgcolor
+{
+    background-color: #F5F5F5;
+    border-color: #F5F5F5;
+    color: #000000;
+}
+.button-align
+{
+    line-height: 0px !important;
+    min-height: 24px !important;
+    padding-top: 9px;
+    padding-bottom: 27px;
 }

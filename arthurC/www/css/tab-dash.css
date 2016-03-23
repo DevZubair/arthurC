@@ -1,12 +1,16 @@
 .done-align
 {
-  color: #00D9C6;
-  font-weight: 600;
-  font-size: 115%;
+    color: #00D9C6;
+    font-weight: 600;
+    font-size: 124%;
+    margin-top: 10px;
 }
 .bar-color-grey
 {
   background-color: #EFEFF4 !important;
+    top: 54px;
+
+    height: 35px;
 }
 .item-checkbox .checkbox {
 
@@ -20,4 +24,7 @@
 .item-checkbox {
   padding-left: 21px !important;
 }
-
+.checkbox-color
+{
+    color: #00D9C6;
+}

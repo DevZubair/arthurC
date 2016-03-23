@@ -47,8 +47,8 @@ slider span.bar.selection {
 }
 slider span.pointer {
   cursor: pointer;
-  width: 30px;
-  height: 30px;
+  width: 27px;
+  height: 27px;
   top: -15px;
   background-color: #fff;
   border: 1px solid #B9B7B7;
