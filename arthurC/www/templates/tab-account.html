@@ -1,8 +1,11 @@
 <ion-view view-title="Preferences">
+    <div class="heading-font">
+
+    </div>
     <ion-content>
         <div class="row">
             <div class="col col-20 font-looking">Looking for</div>
-            <div class="col">
+            <div class="col col-80">
                 <div class="button-bar button-align button-font-13">
                     <a class="button">Women</a>
                     <a class="button">Men</a>
@@ -20,17 +23,17 @@
          <p id="minAgeP">Minimum Age: {{positions.minAge}}</p>
          <p>Maximum Age: {{positions.maxAge}}</p>!-->
         <div class="row">
-            <p class="col-20 font-adjustment">Age</p>
+            <p class="col-10 age-adjustment">Age</p>
             <div class="col"> <slider floor="10" ceiling="100" ng-model-low="positions.minAge" ng-model-high="positions.maxAge"></slider> </div>
         </div>
 
         <div class="row">
-            <p class="col-20 font-adjustment">Height</p>
+            <p class="col-15 height-adjustment">Height</p>
             <div class="col"> <slider floor="10" ceiling="100" ng-model-low="positions.minAge" ng-model-high="positions.maxAge"></slider> </div>
         </div>
 
         <div class="row">
-            <p class="col-20 font-adjustment">Distance</p>
+            <p class="col-20 distance-adjustment">Distance</p>
             <div class="col"> <slider floor="10" ceiling="100" ng-model-low="positions.minAge" ng-model-high="positions.maxAge"></slider> </div>
         </div>
 

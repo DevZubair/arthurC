@@ -5,32 +5,52 @@
   background-color: #FAFAFA !important;
   color: #00D9C6 !important;
 }
-.font-adjustment{
-  font-family: sans-serif;
+.height-adjustment{
+  font-family: cursive;
+  font-style: italic;
+  color: #B1B0B0;
+    margin-top: 6%;
+    margin-left: 10%;
+
+}
+.heading-font
+{
+
+}
+.age-adjustment{
+  font-family: cursive;
+  font-style: italic;
+  color: #B1B0B0;
+    margin-top: 6%;
+    margin-left: 15%;
+}
+.distance-adjustment{
+  font-family: cursive;
   font-style: italic;
   color: #B1B0B0;
     margin-top: 6%;
     margin-left: 5%;
 }
 .font-adjustment1{
-  font-family: sans-serif;
+  font-family: cursive;
   font-style: italic;
   color: #B1B0B0;
     margin-top: 13%;
     margin-left: 5%;
 }
 .font-adjustment2{
-    font-family: sans-serif;
+    font-family: cursive;
     font-style: italic;
     color: #B1B0B0;
     margin-top: 12%;
     margin-left: 2%;
 }
 .font-looking{
-    font-family: sans-serif;
+    font-family: cursive;
     font-style: italic;
     color: #B1B0B0;
     margin-top: 5%;
+
 
 }
 .placeholder-bgcolor
