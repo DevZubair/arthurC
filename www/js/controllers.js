@@ -23,16 +23,31 @@ angular.module('starter.controllers', ['uiSlider'])
 
   .controller('AccountCtrl', function($scope) {
     $scope.positions = {
-      minAge: 40,
-      maxAge: 60
+      minAge: 20,
+      maxAge: 80,
+      minHeight : 10,
+      maxHeight : 40,
+      minDist : 0,
+      maxDist : 40
     };
     var textnode = document.createElement("div");
     textnode.id =  "minAgeP";
-    textnode.innerHTML="<p ng-model='positions.minAge'></p>";
+    textnode.innerHTML="<p style='margin-top: -30px'>"+ $scope.positions.minAge +"</p>";
 
-    var abc = document.getElementById("pointer1");
-    abc.appendChild(textnode);
+    var minage = document.getElementById("pointer1");
+    minage.appendChild(textnode);
+    $scope.$watch('positions.minAge',function(newValue,oldValue){
+      textnode.innerHTML="<p style='margin-top: -24px;margin-left: 3px;'>"+ newValue +"</p>";
+    });
+    var textnode1 = document.createElement("div");
+    textnode1.id =  "maxAgeP";
+    textnode1.innerHTML="<p style='margin-top: -30px'>"+ $scope.positions.maxAge +"</p>";
 
+    var maxage = document.getElementById("pointer2");
+    maxage.appendChild(textnode1);
+    $scope.$watch('positions.maxAge',function(newValue,oldValue){
+      textnode1.innerHTML="<p style='margin-top: -24px;margin-left: 3px;'>"+ newValue +"</p>";
+    })
   })
 
   .controller('ethnicityCtrl', function($scope) {

@@ -1,0 +1,62 @@
+<ion-view view-title="Preferences">
+  <div class="heading-font">
+
+  </div>
+  <ion-content>
+    <div class="row">
+      <div class="col col-33 font-looking">Looking for</div>
+      <div class="col">
+        <div class="button-bar button-align button-font-13">
+          <button class="button"><p class="margin-top-5px margin-left-6percent">Women</p></button>
+          <button class="button"><p class="margin-top-5px">Men</p></button>
+          <button class="button"><p class="margin-top-5px">Both</p></button>
+        </div>
+      </div>
+    </div>
+    <!-- <ul>-->
+
+
+   <!-- <p>Name: </p>
+     <p id="minAgeP">Minimum Age: {{positions.minAge}}</p>
+     <p>Maximum Age: {{positions.maxAge}}</p>-->
+    <div class="row">
+      <p class="col-33 padding-left-13percent age-adjustment">Age</p>
+      <div class="col">
+        <slider floor="20" ceiling="120" ng-model-low="positions.minAge" ng-model-high="positions.maxAge"></slider> </div>
+    </div>
+
+    <div class="row">
+      <p class="col-33 padding-left-7percent height-adjustment">Height</p>
+      <div class="col">
+        <slider floor="0" ceiling="100" ng-model-low="positions.minHeight" ng-model-high="positions.maxHeight"></slider>
+      </div>
+    </div>
+
+    <div class="row">
+      <p class="col-33 distance-adjustment">Distance</p>
+      <div class="col">
+        <div class="range padding-2">
+          <input type="range">
+        </div>
+      </div>
+    </div>
+
+    <div class="row margin-top-20px" ui-sref="ethnicity">
+      <div class="col-33 font-adjustment1">Ethnicity</div>
+      <div class="col list list-inset margin-right-left-3">
+        <label class="item item-input placeholder-bgcolor">
+          <input type="text" disabled placeholder="7 ethnicities Selected" style="padding-right: 0;" ui-sref="ethnicity">
+        </label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-33 font-adjustment2">Education</div>
+      <div class="col list list-inset margin-right-left-3">
+        <label class="item item-input placeholder-bgcolor">
+          <input type="text" placeholder="Selective">
+        </label>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
