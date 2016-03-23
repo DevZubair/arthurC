@@ -9,9 +9,6 @@
 .bar-color-grey
 {
   background-color: #EFEFF4 !important;
-    top: 54px;
-
-    height: 35px;
 }
 .item-checkbox .checkbox {
 
@@ -27,7 +24,7 @@
 }
 .checkbox-color
 {
-    color: #00D9C6;
+  color: #00D9C6;
 }
 .bar.bar-light .title {
   color: #000 !important;

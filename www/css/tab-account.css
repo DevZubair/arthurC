@@ -85,7 +85,7 @@
   padding-left: 15%;
 }
 .padding-left-7percent{
-   padding-left: 10%;
+  padding-left: 10%;
 }
 
 .range input {
@@ -109,4 +109,10 @@
 }
 .margin-top-20px{
   margin-top: -20px !important;
+}
+.distance-range
+{
+  position: absolute;
+  margin-top: -12px;
+  margin-left: 20%;
 }

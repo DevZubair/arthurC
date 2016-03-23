@@ -3,3 +3,39 @@
   margin-left: 86% !important;
   position: absolute !important;
 }
+.tab-background .tab-nav{
+  background-color: #252525 !important;
+}
+.tab-item .icon {
+  display: block;
+
+  height: 32px;
+  padding-top: 10px;
+  font-size: 26px;
+  color: #B3B3B3;
+
+}
+
+.tab-heart{
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 1px;
+  width: 66px;
+  background-color: #020202;
+}
+.tab-heart img{
+  width: 70%;
+  margin-left: 9px;
+  margin-top: 3px;
+}
+.tab-heart-chat{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 1px;
+  width: 66px;
+}
+.tab-heart-chat img{
+  width: 70%;
+  margin-left: 9px;
+  margin-top: 3px;
+}

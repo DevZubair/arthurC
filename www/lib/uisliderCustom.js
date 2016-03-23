@@ -2,9 +2,9 @@
 (function() {
   var MODULE_NAME, SLIDER_TAG, angularize, bindHtml, gap, halfWidth, hide, inputEvents, module, offset, offsetLeft, pixelize, qualifiedDirectiveDefinition, roundStep, show, sliderDirective, width;
 
-  MODULE_NAME = 'uiSlider';
+  MODULE_NAME = 'uiSliders';
 
-  SLIDER_TAG = 'slider';
+  SLIDER_TAG = 'slidercustom';
 
   angularize = function(element) {
     return angular.element(element);
@@ -95,8 +95,8 @@
         translate: '&'
       },
       template: '<span class="bar"></span><span class="bar selection"></span>' +
-      '<span class="pointer"><p style="margin-top: -24px;margin-left: 2px;" id="minAgeP"></p></span>' +
-      '<span class="pointer"><p style="margin-top: -24px;margin-left: 2px;" id="maxAgeP"></p></span>' +
+      '<span class="pointer"><p style="margin-top: -24px"><5'+ "'" +'<span id="minHeightP"></span><span style="padding-left: 13px">"</span></p></span>' +
+      '<span class="pointer"><p style="margin-top: -24px">5'+ "'" +'<span id="maxHeightP"></span><span style="padding-left: 13px">"</span></p></span>' +
       '<span class="bubble selection"></span><span ng-bind-html-unsafe="translate({value: floor})" class="bubble limit"></span><span ng-bind-html-unsafe="translate({value: ceiling})" class="bubble limit"></span><span class="bubble"></span><span class="bubble"></span><span class="bubble"></span>',
       compile: function(element, attributes) {
         var ceilBub, cmbBub, e, flrBub, fullBar, highBub, lowBub, maxPtr, minPtr, range, refHigh, refLow, selBar, selBub, watchables, _i, _len, _ref, _ref1;

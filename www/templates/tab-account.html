@@ -28,15 +28,16 @@
     <div class="row">
       <p class="col-33 padding-left-7percent height-adjustment">Height</p>
       <div class="col">
-        <slider floor="0" ceiling="100" ng-model-low="positions.minHeight" ng-model-high="positions.maxHeight"></slider>
+        <slidercustom floor="0" ceiling="12" ng-model-low="positions.minHeight" ng-model-high="positions.maxHeight"></slidercustom>
       </div>
     </div>
 
     <div class="row">
       <p class="col-33 distance-adjustment">Distance</p>
       <div class="col">
+        <p class="distance-range">{{data.volume}} miles</p>
         <div class="range padding-2">
-          <input type="range">
+          <input type="range" name="volume" ng-model="data.volume">
         </div>
       </div>
     </div>
