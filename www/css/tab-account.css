@@ -21,8 +21,11 @@
   font-family: -webkit-pictograph;
   font-style: italic;
   color: #B1B0B0;
-  margin-top: 6%;
-
+  margin: auto;
+}
+.height-adjustment p{
+  float: right;
+  margin-right: 20%;
 }
 .padding-2
 {
@@ -32,35 +35,56 @@
   font-family: -webkit-pictograph;
   font-style: italic;
   color: #B1B0B0;
-  margin-top: 6%;
-
+  margin: auto;
+}
+.age-adjustment p {
+  float: right;
+  margin-right: 20%;
 }
 .distance-adjustment{
   font-family: -webkit-pictograph;
   font-style: italic;
   color: #B1B0B0;
-  margin-top: 6%;
+  margin: auto;
   padding-left: 7%;
+}
+.distance-adjustment p{
+  float: right;
+  margin-right: 20%;
 }
 .font-adjustment1{
   font-family: -webkit-pictograph;
   font-style: italic;
   color: #B1B0B0;
-  margin-top: 13%;
-  padding-left: 6%;
+  margin: auto;
+
+}
+.font-adjustment1 p{
+  float: right;
+  margin: auto;
+  padding-right: 20%;
 }
 .font-adjustment2{
   font-family: -webkit-pictograph;
   font-style: italic;
   color: #B1B0B0;
-  margin-top: 12%;
-  padding-left: 4%;
+  margin: auto;
+
+}
+.font-adjustment2 p{
+  float: right;
+  margin: auto;
+  padding-right: 20%;
 }
 .font-looking{
   font-family: -webkit-pictograph;
   font-style: italic;
   color: #B1B0B0;
-  margin-top: 5%;
+  margin: auto;
+}
+.font-looking p{
+  float: right;
+  margin-right: 20%;
 }
 .placeholder-bgcolor
 {
